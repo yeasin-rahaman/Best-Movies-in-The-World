@@ -1,0 +1,62 @@
+[
+  {
+    "key": "001",
+    "name": "Avatar",
+    "type": "Science Fiction",
+    "earn": 2845899541,
+    "director": "James Cameron",
+    "leadingCast": "James Cameron",
+    "year": 2009,
+    "img": "https://www.the-numbers.com/images/movies/opusdata/Avatar-Thumbnail.jpg"
+  },
+  {
+    "key": "002",
+    "name": "Avengers Endgame",
+    "type": "Super Hero",
+    "earn": 2797800564,
+    "director": "Joe Russo",
+    "leadingCast": "Robert Downey Jr",
+    "year": 2019,
+    "img": "https://www.the-numbers.com/images/movies/opusdata/Avengers-Endgame-(2019)-Thumbnail.jpg"
+  },
+  {
+    "key": "003",
+    "name": "Titanic",
+    "type": "Historical Fiction",
+    "earn": 1548622601,
+    "director": "James Cameron",
+    "leadingCast": "Leonardo DiCaprio",
+    "year": 1997,
+    "img": "https://www.the-numbers.com/images/movies/opusdata/Titanic-Thumbnail.jpg"
+  },
+  {
+    "key": "004",
+    "name": "Avatar",
+    "type": "Science Fiction",
+    "earn": 2845899541,
+    "director": "James Cameron",
+    "leadingCast": "James Cameron",
+    "year": 2009,
+    "img": "https://www.the-numbers.com/images/movies/opusdata/Avatar-Thumbnail.jpg"
+  },
+  {
+    "key": "005",
+    "name": "Avengers Endgame",
+    "type": "Super Hero",
+    "earn": 2797800564,
+    "director": "Joe Russo",
+    "leadingCast": "Robert Downey Jr",
+    "year": 2019,
+    "img": "https://www.the-numbers.com/images/movies/opusdata/Avengers-Endgame-(2019)-Thumbnail.jpg"
+  },
+  {
+    "key": "006",
+    "name": "Titanic",
+    "type": "Historical Fiction",
+    "earn": 1548622601,
+    "director": "James Cameron",
+    "leadingCast": "Leonardo DiCaprio",
+    "year": 1997,
+    "img": "https://www.the-numbers.com/images/movies/opusdata/Titanic-Thumbnail.jpg"
+  }
+]
