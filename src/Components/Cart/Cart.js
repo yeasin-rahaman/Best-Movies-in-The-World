@@ -25,7 +25,7 @@ const Cart = (props) => {
             <br />
             <br />
             <hr />
-            <h5>Total Earn: {total}</h5>
+            <h4>Total Earn: {total} $</h4>
 
 
         </div>
