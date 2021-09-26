@@ -6,14 +6,14 @@ const Movies = (props) => {
     return (
         <div className="col ">
             <div className="card h-100 movie-card">
-                <img src={img} className="card-img-top cart-image p-2" alt="..." />
+                <img src={img} className="card-img-top cart-image p-2 cart-image" alt="..." />
                 <div className="card-body">
-                    <h3 className="card-title"><b>Name:</b> {name}</h3>
-                    <h5><b>Director: {director}</b></h5>
-                    <h5><b>Leading Cast: {leadingCast}</b></h5>
-                    <h5><b>Type:</b> {type}</h5>
-                    <h5><b>Year:</b> {year}</h5>
-                    <h5><b>Earn:</b>$ {earn}</h5>
+                    <h4 className="card-title"><b>Name:</b> {name}</h4>
+                    <h6><b>Director:</b> {director}</h6>
+                    <h6><b>Leading Cast:</b> {leadingCast}</h6>
+                    <h6><b>Type:</b> {type}</h6>
+                    <h6><b>Year:</b> {year}</h6>
+                    <h6><b>Earn:</b>$ {earn}</h6>
                 </div>
                 <div className="card-footer">
                     <button onClick={() => props.handleAddMovies(props.movie)} type="button" className="btn btn-hover color-1"> <i className="fas fa-cart-plus"></i> Add Movies</button>

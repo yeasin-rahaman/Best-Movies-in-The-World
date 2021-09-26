@@ -1,10 +1,21 @@
 li{
 font-size: 20px;
 font-weight: 600;
+list-style-type: none;
+}
+ul{
+  margin-left: 0;
+  padding-left: 0;
 }
 .movie-name{
     text-align: left;
 }
+
+.line-for-cart{
+
+  border-bottom: 1px solid cyan;
+}
+
 .cart-bg {
     box-shadow: 0 4px 15px 0 rgb(49 196 190 / 75%);
     border-radius: 40px;

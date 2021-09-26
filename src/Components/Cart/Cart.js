@@ -15,20 +15,31 @@ const Cart = (props) => {
 
             <div className="card cart-bg">
                 <h3>  <i className="fas fa-film mt-5"></i> Number of Movies:  {cart.length} </h3>
-                <hr />
+                <hr className="line-for-cart" />
 
-                <div className="movie-name">
-                    <h4>Movie Name</h4>
-                    <ul>
-                        {
-                            cart.map(movie => <li key={movie.name}> {movie.name}
-                            </li>)
-                        }
-                    </ul>
+                <div className="movie-name ">
+                    <h3 className="text-center pb-3">Movie name</h3>
+                    <div className='cart-movie'>
+                        <ul>
+                            {
+                                cart.map(movie =>
+
+                                    <li className="d-flex p-3 line-for-cart" key={movie.key}> <img src={movie.img} alt="" height="100" width="100" className="pe-3" />
+                                        <div> <b>{movie.name}</b>
+                                            <p>Earns:  {movie.earn}$</p>
+
+                                        </div>
+
+
+                                    </li>)
+
+                            }
+                        </ul>
+                    </div>
                 </div>
                 <br />
                 <br />
-                <hr />
+                <hr className="line-for-cart" />
                 <h4>Total Earn: {total} $</h4>
 
             </div>
@@ -39,5 +50,10 @@ const Cart = (props) => {
 };
 
 export default Cart;
+
+
+
+
+
 
 

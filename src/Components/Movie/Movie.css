@@ -7,8 +7,10 @@
   .card-footer{
     background: none;
   }
-img{
-    height: 400px;
+.cart-image{
+    height: 300px;
+    border-radius: 15px;
+
 }
 
 .movie-card:hover {
