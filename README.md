@@ -1,6 +1,5 @@
 <h1>Best Movies in The World</h1>
-   <button><a href="https://worldsbestmovies.netlify.app/">Live Site</a></button>
-  
+Live site : https://worldsbestmovies.netlify.app/
 <hr>
 <h3>This Website is made with react, bootstrap, and some css and Jason</h3>
 
