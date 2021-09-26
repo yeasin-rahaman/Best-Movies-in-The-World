@@ -11,22 +11,27 @@ const Cart = (props) => {
 
 
     return (
-        <div>
-            <h3>  <i className="fas fa-film"></i> Number of Movies:  {cart.length} </h3>
-            <br />
-            <br />
-            <div className="movie-name">
-                <ul>
-                    {
-                        cart.map(movie => <li><h4>{movie.name}</h4></li>)
-                    }
-                </ul>
-            </div>
-            <br />
-            <br />
-            <hr />
-            <h4>Total Earn: {total} $</h4>
+        <div className="">
 
+            <div class="card cart-bg">
+                <h3>  <i className="fas fa-film mt-5"></i> Number of Movies:  {cart.length} </h3>
+                <hr />
+                <br />
+                <br />
+                <div className="movie-name">
+                    <ul>
+                        {
+                            cart.map(movie => <h5><li key={movie.key}> {movie.name}
+                            </li></h5>)
+                        }
+                    </ul>
+                </div>
+                <br />
+                <br />
+                <hr />
+                <h4>Total Earn: {total} $</h4>
+
+            </div>
 
         </div>
     )
@@ -34,4 +39,5 @@ const Cart = (props) => {
 };
 
 export default Cart;
+
 

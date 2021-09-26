@@ -1,10 +1,13 @@
 import React from 'react';
+import '../Header/Header.css'
 
 const Header = () => {
     return (
-        <div >
-            <h1 className="text-danger">Worlds Best Movies</h1>
-            <h3 className="text-primary">Total Budget: 1500000$</h3>
+        <div className="header">
+            {/* header  */}
+            <h1 className="fw-bold">Worlds Best Movies</h1>
+            <hr />
+            <h3 className="">Total Budget: 1500000$</h3>
         </div>
     );
 };
