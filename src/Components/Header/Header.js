@@ -7,7 +7,7 @@ const Header = () => {
             {/* header  */}
             <h1 className="fw-bold">Worlds Best Movies</h1>
             <hr />
-            <h3 className="">Total Budget: 1500000$</h3>
+            <h3 className="">Total Budget: 100 Million</h3>
         </div>
     );
 };

@@ -4,12 +4,13 @@
     box-sizing: border-box;
   
   }
+  .card-footer{
+    background: none;
+  }
 img{
     height: 400px;
 }
-.card-footer{
-    background-color: none;
-}
+
 .movie-card:hover {
     box-shadow: 0 4px 15px 0 rgb(49 196 190 / 75%);
     border-radius: 40px;

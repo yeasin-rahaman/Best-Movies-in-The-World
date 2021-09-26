@@ -13,16 +13,16 @@ const Cart = (props) => {
     return (
         <div className="">
 
-            <div class="card cart-bg">
+            <div className="card cart-bg">
                 <h3>  <i className="fas fa-film mt-5"></i> Number of Movies:  {cart.length} </h3>
                 <hr />
-                <br />
-                <br />
+
                 <div className="movie-name">
+                    <h4>Movie Name</h4>
                     <ul>
                         {
-                            cart.map(movie => <h5><li key={movie.key}> {movie.name}
-                            </li></h5>)
+                            cart.map(movie => <li key={movie.name}> {movie.name}
+                            </li>)
                         }
                     </ul>
                 </div>
